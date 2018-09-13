@@ -9,7 +9,6 @@ import sys
 import urllib
 import os
 import codecs
-import atexit
 from ConfigParser import SafeConfigParser
 from ConfigParser import RawConfigParser
 
@@ -142,16 +141,6 @@ def main():
 		driver = chrome_driver_new_session()
 
 	play_playlist_according_to_search(driver, search)
-	
-	# Close browser instance, if our python closed.
-	atexit.register(exit_handler)
-
-	# Wait until chrome-window closed.
-	try:
-		while driver.current_url:
-			pass
-	except:
-		exit()
 
 if __name__ == '__main__':
 	try:
