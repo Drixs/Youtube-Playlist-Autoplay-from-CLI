@@ -112,7 +112,7 @@ def play_playlist_according_to_search(driver, search):
 	driver.get(url)
 
 	# Click on playlist named what we've searched..
-	query = """//*[@id="video-title" and contains(text(), {})]""".format(search)
+	query = """//*[@id="video-title" and contains(text(), '{}')]""".format(search)
 	click_on_element_by_xpath(query)
 
 	# Click on LOOP option, and Shuffle
