@@ -101,8 +101,10 @@ def validate_args():
 def get_search_arg():
 	search = sys.argv[1]
 	search = search.decode(sys.getfilesystemencoding()).encode('utf-8') # Support unicode filenames	
+	return search
 
 def play_playlist_according_to_search(driver, search):
+	global wait
 	wait = WebDriverWait(driver, 250) # it will wait for 250 seconds an element to come into view, you can change the #value
 
 	# Browse YOUTUBE playlist search
