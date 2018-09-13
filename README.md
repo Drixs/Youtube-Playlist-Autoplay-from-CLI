@@ -25,8 +25,8 @@ And i've wanted to pick any of them quickly from cli.
  * Get an updated "uBlock" extension-crx at https://chrome-extension-downloader.com/
 
 # TODO
- - [v] chrome minimize.
- - [v] kill previous script instances.
- - [v] kill previous script instances.
- - [x] Telegram bot: Recieve playlist name to play form pc.
- - [x] Telegram bot: Navigation: Stop song, next song, previous song.
+ - [x] chrome minimize.
+ - [x] kill previous script instances.
+ - [x] kill previous script instances.
+ - [ ] Telegram bot: Recieve playlist name to play form pc.
+ - [ ] Telegram bot: Navigation: Stop song, next song, previous song.
