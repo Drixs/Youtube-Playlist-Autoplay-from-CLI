@@ -8,7 +8,11 @@ And i've wanted to pick any of them quickly from cli.
 
 # Installation
 
-	pip install -r requirements.txt
+	1.	pip install -r requirements.txt
+	2.	Download ChromeDriver from: http://chromedriver.chromium.org/downloads
+		Put chromedriver.exe accesible in %PATH% env.
+
+
 
 # Usage
 
